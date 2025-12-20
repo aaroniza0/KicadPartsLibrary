@@ -1,0 +1,150 @@
+(footprint "RADIAL_T1_3_4th_THRU"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.02 -1.39 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "573154c6-1543-46ba-a690-ec259188f980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RADIAL_T1_3_4th_THRU"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec5af310-6139-4618-9d26-193fe3d6f11a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce5d5be8-6ee0-4f99-bad8-78d216a1c752")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0735fefd-150a-415c-beff-ed7b5ea2645f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 4.27 -0.75)
+		(end 4.27 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "676c6c1f-a2ac-41d4-ada1-a1ffedf9ee86")
+	)
+	(fp_arc
+		(start 4.27 0.75)
+		(mid -1.822329 0)
+		(end 4.27 -0.749999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9adb7a5-a1c1-45cd-9752-05b662ba7f1b")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 4.62 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2a2d5e97-077f-4601-a2b3-81c379ce9fe0")
+	)
+	(fp_line
+		(start 4.02 -0.75)
+		(end 4.02 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "de2effae-f08a-4d57-bc53-39553ad72818")
+	)
+	(fp_arc
+		(start 4.02 0.75)
+		(mid -1.580439 0)
+		(end 4.02 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8f7a9f09-bcc7-406d-a8b5-fd280a0169d8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7b67e12e-370a-42d0-9f89-d1bd059fc758")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4fa1817-2392-4e20-ac8b-7232421ec6eb")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1cb1dee2-fc8f-4b7a-b6d5-f8244380be80")
+	)
+	(embedded_fonts no)
+	(model "D:/1 Embedded Systems/soloplant/New Parts/LEDs/WP7113ID/WP7113ID.step"
+		(offset
+			(xyz 1.25 0 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
