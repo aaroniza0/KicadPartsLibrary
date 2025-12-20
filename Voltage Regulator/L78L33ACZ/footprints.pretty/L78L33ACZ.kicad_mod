@@ -1,0 +1,250 @@
+(footprint "L78L33ACZ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "L78L33ACZ ")
+	(property "Reference" "REF**"
+		(at 2.54 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d8e3d622-10e0-44f2-af05-14430299c382")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-92-TR_STM"
+		(at 2.54 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f6ee73d6-a1b9-44f8-ac1d-891f1e60ad86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16e6efe2-5a02-4d96-994b-809895e8c271")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b609a4ab-598f-4320-b932-eb64ef29f830")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.540002 1.5875)
+		(end 4.539998 1.5875)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e1c5f9e-2802-4e23-8e46-33c723a7201f")
+	)
+	(fp_arc
+		(start 0.172004 -1.082039)
+		(mid 2.547048 -2.60349)
+		(end 4.913819 -1.069203)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc4090dd-45da-423f-956c-cb919ef9178a")
+	)
+	(fp_arc
+		(start 0.437437 1.535397)
+		(mid 0.293256 1.31543)
+		(end 0.172004 1.082039)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "626f42d9-e199-4cd5-a0d4-4455f3d357a5")
+	)
+	(fp_arc
+		(start 4.913819 1.069203)
+		(mid 4.790296 1.309343)
+		(end 4.642563 1.535397)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c9f48b0-6114-499e-ab5a-ad6b1cbef92d")
+	)
+	(fp_circle
+		(center -1.8415 0)
+		(end -1.7145 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6663fade-6959-4f7e-ae24-2d544c13413f")
+	)
+	(fp_line
+		(start -1.0033 -3.5433)
+		(end 6.0833 -3.5433)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71853b54-0ced-459b-bff5-5c5a98c812e3")
+	)
+	(fp_line
+		(start -1.0033 1.7145)
+		(end -1.0033 -3.5433)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7bbfbb0e-ed9c-4f81-9665-adeef135acc7")
+	)
+	(fp_line
+		(start 6.0833 -3.5433)
+		(end 6.0833 1.7145)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccb0f904-43f4-4c40-a40f-77cbf0da309c")
+	)
+	(fp_line
+		(start 6.0833 1.7145)
+		(end -1.0033 1.7145)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "356cb2b8-ea05-412c-9b4e-aeb0732ba4fe")
+	)
+	(fp_line
+		(start -0.254 0)
+		(end 0.254 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0051f594-53eb-4db4-91d0-7528e9c1c423")
+	)
+	(fp_line
+		(start 0 0.254)
+		(end 0 -0.254)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34bdf3b0-5940-42f9-9c6f-17a3fa9901ae")
+	)
+	(fp_line
+		(start 0.540002 1.4605)
+		(end 4.539998 1.4605)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d74e164-1a0c-4002-8c36-0acb528c5ef5")
+	)
+	(fp_arc
+		(start 0.540001 1.460499)
+		(mid 2.54 -2.4765)
+		(end 4.539998 1.4605)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c8ced29-ecfe-457a-adf0-2f1fecdff7ff")
+	)
+	(fp_circle
+		(center 0.3175 0)
+		(end 0.4445 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "63d94def-2788-45a2-bea9-49474c3a7ff4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e11424e-d357-4d1f-9b3c-0d778d639262")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4986 1.4986)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c9d6c735-b46c-4d6d-a54d-2ef6ba02d93f")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.4986 1.4986)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "085dc242-034c-4621-bc94-a57a00fdb6a2")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.4986 1.4986)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d45f369-7992-4123-a18c-297f338e806a")
+	)
+	(embedded_fonts no)
+	(model "D:/1 Embedded Systems/soloplant/New Parts/Voltage Regulator/L78L33ACZ/L78L33ACZ.step"
+		(offset
+			(xyz -0.5 0 0)
+		)
+		(scale
+			(xyz 1.2 1.2 1.2)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
