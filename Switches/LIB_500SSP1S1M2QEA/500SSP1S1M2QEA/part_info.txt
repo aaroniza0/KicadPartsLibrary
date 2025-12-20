@@ -1,0 +1,9 @@
+Manufacturer=E-Switch
+PartNumber=500SSP1S1M2QEA
+PartCategory=Switch
+PackageCategory=Other
+PinCount=3
+Version=10.2
+Released=2020-06-16 09:00:53
+Downloaded=2025-06-26 01:37:54
+3D=Y

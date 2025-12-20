@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_801953"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-16-09:00:53)
+    (utime 2024-12-31-12:37:02)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "500SSP1S1M2QEA")
+)
+
+
+(pinAssign "ECS_801953"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-16-09:00:53)
+    (utime 2024-12-31-12:37:02)
+    (interface
+        (port "1" (symbPinId 1) (portName "NC") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "COM") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "NO") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_801953")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "500SSP1S1M2QEA")
+)
+
+
+(part "500SSP1S1M2QEA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-16-09:00:53)
+    (utime 2024-12-31-12:37:02)
+    (packageRef "500SSP1S1M2QEA")
+    (pinAssignRef "ECS_801953")
+    (interface
+        (port "1" (symbPinId 1) (portName "NC") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "COM") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "NO") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "SLIDE, 5A, 120VAC/28VDC SPDT, On-On Through Hole")
+    (property "Manufacturer_Name" "E-Switch")
+    (property "Manufacturer_Part_Number" "500SSP1S1M2QEA")
+    (property "Mouser_Part_Number" "612-500-A121")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/500SSP1S1M2QEA?qs=rR7wk9eDIwofjM3j2mZRnA%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://configured-product-images.s3.amazonaws.com/2D/specs/500SSP1S1M2QEA.pdf")
+    (property "compAreaTopHeight" 11.43)
+)
+
+

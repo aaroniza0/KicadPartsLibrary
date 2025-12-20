@@ -1,0 +1,18 @@
+.500SSP1S1M2QEA :1 ;SLIDE, 5A, 120VAC/28VDC SPDT, On-On Through Hole
+"500SSP1S1M2QEA"
+*STM S
+*NGS
+*PLB 1="NC" 2="COM" 3="NO"
+*MXP 3
+*DFN 500SSP1S1M2QEA
+~!Manufacturer_Name (E-Switch)
+~!Manufacturer_Part_Number (500SSP1S1M2QEA)
+~!Mouser Part Number (612-500-A121)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/E-Switch/500SSP1S1M2QEA?qs=rR7wk9eDIwofjM3j2mZRnA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://configured-product-images.s3.amazonaws.com/2D/specs/500SSP1S1M2QEA.pdf)
+~!Height (11.43mm)
+~!3D_Model (500SSP1S1M2QEA)
+"500SSP1S1M2QEA"
+1.1!U 2.1!U 3.1!U 
