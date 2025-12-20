@@ -1,0 +1,225 @@
+(footprint "CONN HEADER VERT 2POS 2.54MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.425 -2.385 0)
+		(layer "F.SilkS")
+		(uuid "d5abf032-70f3-4911-88f8-ffe5a984d026")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HARWIN_M20-9990245"
+		(at 8.68 2.365 0)
+		(layer "F.Fab")
+		(uuid "fe9a8fc7-e475-44d0-8cd4-e438332ab890")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db6cc80b-e55f-43fb-a1a6-0e94baa63102")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5116f7d6-aa03-4494-9783-35c920e77f4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -1.27)
+		(end 2.54 -1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c0dbb19-770f-476c-bbbe-890aff9e6979")
+	)
+	(fp_line
+		(start -2.54 1.27)
+		(end -2.54 -1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca1bc2ca-d754-47b4-8b96-a35f41d7b9a1")
+	)
+	(fp_line
+		(start 2.54 -1.27)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34aa3800-1e48-41f3-9c5b-a5892bbcbe73")
+	)
+	(fp_line
+		(start 2.54 1.27)
+		(end -2.54 1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11dd817d-6eb4-46e7-961a-4d081f7fd0e5")
+	)
+	(fp_circle
+		(center -3.1 0)
+		(end -3 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a7ad6bee-12a6-4e93-a6cd-66f51913a537")
+	)
+	(fp_line
+		(start -2.79 -1.52)
+		(end 2.79 -1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "420aff04-1fa2-4e1b-a497-07c52aa0e5e1")
+	)
+	(fp_line
+		(start -2.79 1.52)
+		(end -2.79 -1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cb9a9ce-8757-4434-8fbe-c9b697cb7d8f")
+	)
+	(fp_line
+		(start 2.79 -1.52)
+		(end 2.79 1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66bb9278-0d21-4319-b2ef-cac4c8948448")
+	)
+	(fp_line
+		(start 2.79 1.52)
+		(end -2.79 1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04580710-df11-4e14-96c3-7cd015bc9b7c")
+	)
+	(fp_line
+		(start -2.54 -1.27)
+		(end 2.54 -1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6bf56986-b175-40d8-b1cc-fa24e16904dd")
+	)
+	(fp_line
+		(start -2.54 1.27)
+		(end -2.54 -1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "278996fe-1f10-4f5f-a8a1-9c81d5a44b0b")
+	)
+	(fp_line
+		(start 2.54 -1.27)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45d55fe5-382b-49c5-83a8-e7aa5be11483")
+	)
+	(fp_line
+		(start 2.54 1.27)
+		(end -2.54 1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c677a4a2-8993-4409-a601-d2935331e5e2")
+	)
+	(fp_circle
+		(center -3.1 0)
+		(end -3 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "476eed0d-6ed5-4db0-aed0-a19914e2888d")
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.605 1.605)
+		(drill 1.07)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3d47ab2a-6f92-445e-97b6-0a8e08ad461e")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.605 1.605)
+		(drill 1.07)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0e24e55d-1e53-43b7-bfd2-416bf17e0c37")
+	)
+	(embedded_fonts no)
+	(model "D:/1 Embedded Systems/soloplant/New Parts/Headers/M20-9990245/CONN HEADER VERT 2POS 2.54MM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

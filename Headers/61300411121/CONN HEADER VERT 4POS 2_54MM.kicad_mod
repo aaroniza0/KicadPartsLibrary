@@ -1,0 +1,204 @@
+(footprint "CONN HEADER VERT 4POS 2_54MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -8.1096 -0.6625 0)
+		(layer "F.SilkS")
+		(uuid "968ef38f-9344-4de6-8365-245130c9cd1f")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "61300411121"
+		(at -10.468 1.0378 0)
+		(layer "F.Fab")
+		(uuid "19170c6a-5a1b-40a4-b96c-914022a1dc31")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c308ca03-6432-4767-b603-f537369445d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63a348a3-3e0e-4527-b836-674006025dba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.18 -1.37)
+		(end 5.18 -1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e5ad6d2-ff45-4205-9892-3bb20e3b3f62")
+	)
+	(fp_line
+		(start -5.18 1.37)
+		(end -5.18 -1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f83027c2-1c64-4d1a-ae51-56d4c9c70c9e")
+	)
+	(fp_line
+		(start 5.18 -1.37)
+		(end 5.18 1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a17e1672-8978-4009-9a44-6966e49f4968")
+	)
+	(fp_line
+		(start 5.18 1.37)
+		(end -5.18 1.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c709ec37-bdde-4084-bc12-59f70d2ff363")
+	)
+	(fp_circle
+		(center -4.7 0.9)
+		(end -4.6 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b78ba2ae-df2a-463b-a71e-58b6a49518bc")
+	)
+	(fp_poly
+		(pts
+			(xy -5.38 -1.57) (xy 5.38 -1.57) (xy 5.38 1.57) (xy -5.38 1.57)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "ca2b84f2-1b22-4294-926b-92f7d04f6467")
+	)
+	(fp_line
+		(start -5.08 -1.27)
+		(end -5.08 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b484dc51-445b-4d87-b1ea-0939f62a0577")
+	)
+	(fp_line
+		(start -5.08 1.27)
+		(end 5.08 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfa6f712-4fb0-498c-b6bc-f5cc37162e23")
+	)
+	(fp_line
+		(start 5.08 -1.27)
+		(end -5.08 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7abb58dc-fa2e-4ade-921f-8f1867638055")
+	)
+	(fp_line
+		(start 5.08 1.27)
+		(end 5.08 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0db91c6-7cd2-4993-894a-3a7891708a8c")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3582424f-2ea7-42e2-b328-663fdb843092")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "afb4578e-63fb-4566-a919-adcfaf4a039a")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e4d93349-a94a-4cdb-bcd7-ea517415d2b7")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a15af17d-9aee-44aa-9470-cc89edca12e0")
+	)
+	(embedded_fonts no)
+	(model "D:/1 Embedded Systems/soloplant/New Parts/Headers/61300411121/CONN HEADER VERT 4POS 2_54MM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

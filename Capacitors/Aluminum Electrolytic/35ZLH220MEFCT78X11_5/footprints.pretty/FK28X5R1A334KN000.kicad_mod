@@ -1,0 +1,223 @@
+(footprint "FK28X5R1A334KN000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.15 -2.335 0)
+		(layer "F.SilkS")
+		(uuid "66a1c3c3-b044-408d-aedb-73cca2c38d42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPRB500W50L400T250H550"
+		(at 11.28 2.335 0)
+		(layer "F.Fab")
+		(uuid "f9a16789-b9f0-4135-bd53-7c20d8f05d2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "153db08b-657a-4327-ba64-d38c2cb3c107")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f4dd440-0c93-49bd-b0b0-186a81e66b1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2 -1.25)
+		(end -2 -0.895)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ab66100-842e-49ff-bac6-b3c5566564bd")
+	)
+	(fp_line
+		(start -2 -1.25)
+		(end 2 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47856f53-aaff-45f5-a83e-5bf32cafd876")
+	)
+	(fp_line
+		(start -2 1.25)
+		(end -2 0.895)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eec34d7d-9cce-4102-b2ff-5fd9b6fc30d2")
+	)
+	(fp_line
+		(start -2 1.25)
+		(end 2 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b93ebc5-af53-49be-acc0-be061667578b")
+	)
+	(fp_line
+		(start 2 -1.25)
+		(end 2 -0.895)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd173865-2a2d-4c0b-a322-680b21abcb59")
+	)
+	(fp_line
+		(start 2 1.25)
+		(end 2 0.895)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bdbf1023-8c93-4f02-85e1-44a9da137bad")
+	)
+	(fp_line
+		(start -3.325 -1.5)
+		(end -3.325 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f43e1d83-bd12-45e5-8ac3-0d03b540baee")
+	)
+	(fp_line
+		(start -3.325 -1.5)
+		(end 3.325 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "912b0937-e416-4ea4-b4bd-5d6c42b02b73")
+	)
+	(fp_line
+		(start 3.325 -1.5)
+		(end 3.325 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1095997c-ef7d-4e30-9e94-2d29d9f915f0")
+	)
+	(fp_line
+		(start 3.325 1.5)
+		(end -3.325 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "542288f0-fdbf-4c2b-b62a-7fedc9c9af71")
+	)
+	(fp_line
+		(start -2 -1.25)
+		(end -2 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da45310e-3e92-46a2-8d52-f232aa061145")
+	)
+	(fp_line
+		(start -2 -1.25)
+		(end 2 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93b83e33-6830-42f4-8818-b9d686cf91fc")
+	)
+	(fp_line
+		(start 2 -1.25)
+		(end 2 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be9e2fb3-2871-475a-8cd6-16e92b0ff940")
+	)
+	(fp_line
+		(start 2 1.25)
+		(end -2 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56ce9728-4f32-4ee9-9b81-72720560e5a8")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.15 1.15)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d9114bf9-30cc-4c20-96f8-d9e384f3e246")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.15 1.15)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2341cc9f-e3b2-44be-90ca-0981cef899ca")
+	)
+	(embedded_fonts no)
+	(model "D:/1 Embedded Systems/soloplant/New Parts/Capacitors/Ceramic/FK28X5R1A334KN000/FK28X5R1A334KN000.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
